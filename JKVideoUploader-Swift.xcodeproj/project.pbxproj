@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16B8637519A5998A00452ACB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B8637419A5998A00452ACB /* AppDelegate.swift */; };
+		16B8637819A5998A00452ACB /* JKVideoUploader_Swift.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 16B8637619A5998A00452ACB /* JKVideoUploader_Swift.xcdatamodeld */; };
+		16B8637A19A5998A00452ACB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B8637919A5998A00452ACB /* ViewController.swift */; };
+		16B8637D19A5998A00452ACB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16B8637B19A5998A00452ACB /* Main.storyboard */; };
+		16B8637F19A5998A00452ACB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16B8637E19A5998A00452ACB /* Images.xcassets */; };
+		16B8638B19A5998A00452ACB /* JKVideoUploader_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B8638A19A5998A00452ACB /* JKVideoUploader_SwiftTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16B8638519A5998A00452ACB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16B8636719A5998A00452ACB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16B8636E19A5998A00452ACB;
+			remoteInfo = "JKVideoUploader-Swift";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16B8636F19A5998A00452ACB /* JKVideoUploader-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JKVideoUploader-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16B8637319A5998A00452ACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16B8637419A5998A00452ACB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		16B8637719A5998A00452ACB /* JKVideoUploader_Swift.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JKVideoUploader_Swift.xcdatamodel; sourceTree = "<group>"; };
+		16B8637919A5998A00452ACB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		16B8637C19A5998A00452ACB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		16B8637E19A5998A00452ACB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		16B8638419A5998A00452ACB /* JKVideoUploader-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JKVideoUploader-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		16B8638919A5998A00452ACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16B8638A19A5998A00452ACB /* JKVideoUploader_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKVideoUploader_SwiftTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16B8636C19A5998A00452ACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16B8638119A5998A00452ACB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16B8636619A5998A00452ACB = {
+			isa = PBXGroup;
+			children = (
+				16B8637119A5998A00452ACB /* JKVideoUploader-Swift */,
+				16B8638719A5998A00452ACB /* JKVideoUploader-SwiftTests */,
+				16B8637019A5998A00452ACB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16B8637019A5998A00452ACB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16B8636F19A5998A00452ACB /* JKVideoUploader-Swift.app */,
+				16B8638419A5998A00452ACB /* JKVideoUploader-SwiftTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16B8637119A5998A00452ACB /* JKVideoUploader-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				16B8637419A5998A00452ACB /* AppDelegate.swift */,
+				16B8637919A5998A00452ACB /* ViewController.swift */,
+				16B8637B19A5998A00452ACB /* Main.storyboard */,
+				16B8637E19A5998A00452ACB /* Images.xcassets */,
+				16B8637619A5998A00452ACB /* JKVideoUploader_Swift.xcdatamodeld */,
+				16B8637219A5998A00452ACB /* Supporting Files */,
+			);
+			path = "JKVideoUploader-Swift";
+			sourceTree = "<group>";
+		};
+		16B8637219A5998A00452ACB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16B8637319A5998A00452ACB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		16B8638719A5998A00452ACB /* JKVideoUploader-SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				16B8638A19A5998A00452ACB /* JKVideoUploader_SwiftTests.swift */,
+				16B8638819A5998A00452ACB /* Supporting Files */,
+			);
+			path = "JKVideoUploader-SwiftTests";
+			sourceTree = "<group>";
+		};
+		16B8638819A5998A00452ACB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				16B8638919A5998A00452ACB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16B8636E19A5998A00452ACB /* JKVideoUploader-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16B8638E19A5998A00452ACB /* Build configuration list for PBXNativeTarget "JKVideoUploader-Swift" */;
+			buildPhases = (
+				16B8636B19A5998A00452ACB /* Sources */,
+				16B8636C19A5998A00452ACB /* Frameworks */,
+				16B8636D19A5998A00452ACB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "JKVideoUploader-Swift";
+			productName = "JKVideoUploader-Swift";
+			productReference = 16B8636F19A5998A00452ACB /* JKVideoUploader-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16B8638319A5998A00452ACB /* JKVideoUploader-SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16B8639119A5998A00452ACB /* Build configuration list for PBXNativeTarget "JKVideoUploader-SwiftTests" */;
+			buildPhases = (
+				16B8638019A5998A00452ACB /* Sources */,
+				16B8638119A5998A00452ACB /* Frameworks */,
+				16B8638219A5998A00452ACB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16B8638619A5998A00452ACB /* PBXTargetDependency */,
+			);
+			name = "JKVideoUploader-SwiftTests";
+			productName = "JKVideoUploader-SwiftTests";
+			productReference = 16B8638419A5998A00452ACB /* JKVideoUploader-SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16B8636719A5998A00452ACB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Jeremy Kreutzbender";
+				TargetAttributes = {
+					16B8636E19A5998A00452ACB = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					16B8638319A5998A00452ACB = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 16B8636E19A5998A00452ACB;
+					};
+				};
+			};
+			buildConfigurationList = 16B8636A19A5998A00452ACB /* Build configuration list for PBXProject "JKVideoUploader-Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16B8636619A5998A00452ACB;
+			productRefGroup = 16B8637019A5998A00452ACB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16B8636E19A5998A00452ACB /* JKVideoUploader-Swift */,
+				16B8638319A5998A00452ACB /* JKVideoUploader-SwiftTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16B8636D19A5998A00452ACB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16B8637D19A5998A00452ACB /* Main.storyboard in Resources */,
+				16B8637F19A5998A00452ACB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16B8638219A5998A00452ACB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16B8636B19A5998A00452ACB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16B8637A19A5998A00452ACB /* ViewController.swift in Sources */,
+				16B8637819A5998A00452ACB /* JKVideoUploader_Swift.xcdatamodeld in Sources */,
+				16B8637519A5998A00452ACB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16B8638019A5998A00452ACB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16B8638B19A5998A00452ACB /* JKVideoUploader_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16B8638619A5998A00452ACB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16B8636E19A5998A00452ACB /* JKVideoUploader-Swift */;
+			targetProxy = 16B8638519A5998A00452ACB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		16B8637B19A5998A00452ACB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16B8637C19A5998A00452ACB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16B8638C19A5998A00452ACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		16B8638D19A5998A00452ACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16B8638F19A5998A00452ACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "JKVideoUploader-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		16B8639019A5998A00452ACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "JKVideoUploader-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		16B8639219A5998A00452ACB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JKVideoUploader-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKVideoUploader-Swift.app/JKVideoUploader-Swift";
+			};
+			name = Debug;
+		};
+		16B8639319A5998A00452ACB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JKVideoUploader-SwiftTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKVideoUploader-Swift.app/JKVideoUploader-Swift";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16B8636A19A5998A00452ACB /* Build configuration list for PBXProject "JKVideoUploader-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16B8638C19A5998A00452ACB /* Debug */,
+				16B8638D19A5998A00452ACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16B8638E19A5998A00452ACB /* Build configuration list for PBXNativeTarget "JKVideoUploader-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16B8638F19A5998A00452ACB /* Debug */,
+				16B8639019A5998A00452ACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		16B8639119A5998A00452ACB /* Build configuration list for PBXNativeTarget "JKVideoUploader-SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16B8639219A5998A00452ACB /* Debug */,
+				16B8639319A5998A00452ACB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		16B8637619A5998A00452ACB /* JKVideoUploader_Swift.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				16B8637719A5998A00452ACB /* JKVideoUploader_Swift.xcdatamodel */,
+			);
+			currentVersion = 16B8637719A5998A00452ACB /* JKVideoUploader_Swift.xcdatamodel */;
+			path = JKVideoUploader_Swift.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 16B8636719A5998A00452ACB /* Project object */;
+}
