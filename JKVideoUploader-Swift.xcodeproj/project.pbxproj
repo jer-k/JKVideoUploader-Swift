@@ -13,6 +13,7 @@
 		16B8637D19A5998A00452ACB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16B8637B19A5998A00452ACB /* Main.storyboard */; };
 		16B8637F19A5998A00452ACB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16B8637E19A5998A00452ACB /* Images.xcassets */; };
 		16B8638B19A5998A00452ACB /* JKVideoUploader_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B8638A19A5998A00452ACB /* JKVideoUploader_SwiftTests.swift */; };
+		16B8639519AC251500452ACB /* CameraSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16B8639419AC251500452ACB /* CameraSession.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		16B8638419A5998A00452ACB /* JKVideoUploader-SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "JKVideoUploader-SwiftTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		16B8638919A5998A00452ACB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		16B8638A19A5998A00452ACB /* JKVideoUploader_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKVideoUploader_SwiftTests.swift; sourceTree = "<group>"; };
+		16B8639419AC251500452ACB /* CameraSession.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraSession.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				16B8637E19A5998A00452ACB /* Images.xcassets */,
 				16B8637619A5998A00452ACB /* JKVideoUploader_Swift.xcdatamodeld */,
 				16B8637219A5998A00452ACB /* Supporting Files */,
+				16B8639419AC251500452ACB /* CameraSession.swift */,
 			);
 			path = "JKVideoUploader-Swift";
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 				16B8637A19A5998A00452ACB /* ViewController.swift in Sources */,
 				16B8637819A5998A00452ACB /* JKVideoUploader_Swift.xcdatamodeld in Sources */,
 				16B8637519A5998A00452ACB /* AppDelegate.swift in Sources */,
+				16B8639519AC251500452ACB /* CameraSession.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +405,7 @@
 				16B8639019A5998A00452ACB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		16B8639119A5998A00452ACB /* Build configuration list for PBXNativeTarget "JKVideoUploader-SwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -409,6 +414,7 @@
 				16B8639319A5998A00452ACB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
